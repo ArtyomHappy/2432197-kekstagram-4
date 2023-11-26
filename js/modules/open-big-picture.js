@@ -74,7 +74,7 @@ const addEventListenerToPicture = (picturesInfo) => {
   }
 
   cancelButton.addEventListener('click', hideBigPicture);
-  document.addEventListener('click', escapeKeydown);
+  document.addEventListener('keydown', escapeKeydown);
 };
 
 export { addEventListenerToPicture };
